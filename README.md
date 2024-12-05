@@ -10,7 +10,7 @@ public class Main{
     
         int n=snr.nextInt();
         
-        int a[]=new int[n],sv,i;
+        int a[]=new int[n],searchvalue,i;
         
         for(i=0;i<n;i++){
         
@@ -18,11 +18,11 @@ public class Main{
         
         }
         
-        sv=snr.nextInt();
+        searchvalue=snr.nextInt();
         
         for(i=0;i<n;i++){
         
-            if(a[i]==sv){
+            if(a[i]==searchvalue){
             
                 System.out.println(i);
                 
@@ -32,7 +32,7 @@ public class Main{
         
         }
         if(i==n){
-            System.out.println("not exist");
+            System.out.println("element does not exist");
         }
     }
 }
