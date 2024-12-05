@@ -1,4 +1,5 @@
 # linear-search.java
+
 import java.util.Scanner;
 
 public class Main{
